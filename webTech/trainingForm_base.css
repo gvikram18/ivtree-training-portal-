@@ -1,0 +1,48 @@
+.ex1{
+  		width : 500px;
+  		margin: auto;
+  		border: 3px solid-white;
+  	}
+.navbar-brand1 {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 40rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.center {
+	display: inline-block;
+	padding-top: 12px;
+	text-align: center;
+}
+
+#tasks {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tasks td, #tasks th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+}
+
+#tasks tr:nth-child(even){background-color: #f2f2f2;}
+
+#tasks tr:hover {background-color: #ddd;}
+
+#tasks th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 200px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid-white;
+}
+.dropdown ul {display:none}
+.dropdown:hover ul {display:block;}

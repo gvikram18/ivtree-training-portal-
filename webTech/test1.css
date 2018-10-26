@@ -1,0 +1,29 @@
+h2{
+	font-family: arial, helvetica, sans-serif;
+    	font-size: 14px;
+	font-size: 14px;
+	background-color: #ccc;
+    	margin: 20px;
+    	padding: 40px;
+	border-style: dashed;
+    	border-width: 3px;
+}
+
+h1{
+	letter-spacing: 0.5em;
+        word-spacing: 2em;
+    	line-height: 1.5;
+    	text-align: center;	
+	color:yellow;
+	background-color:navy;
+	font-style:italic;
+	font-weight:100;
+	
+}
+
+p{
+	color: red;
+	font-weight:200;
+	font-style:bold;
+	text-decoration:line-through;
+}
