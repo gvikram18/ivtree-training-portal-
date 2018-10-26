@@ -1,0 +1,77 @@
+@media screen and (max-width: 767px) {
+      .affix {
+        height: auto;
+        padding: 15px;
+        width: 263px;
+      }
+      .row.content {height:auto;} 
+    }
+
+.affix 
+    	{
+    		top: 20px;
+    	}
+
+body {
+	position: relative;
+}
+
+/* column group CSS */
+colgroup {
+    display: table-column-group;
+} 
+
+
+
+
+
+#navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 40rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+
+}
+
+#center {
+	display: inline-block;
+	padding-top: 12px;
+    /* background-color: #054978;
+    color: white;
+    border: 1px solid-white; */
+	text-align: center;
+}
+
+#tasks {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;  
+    width: 80%; 
+}
+#tasks td, #tasks th {
+    border: 1px solid #ddd;
+    padding: 7px;   
+}
+
+#tasks td:nth-child(1){width: 20%;}
+#tasks td:nth-child(2){width: 20%;}
+#tasks td:nth-child(3){width: 10%;}
+#tasks td:nth-child(4){width: 10%;}
+#tasks td:nth-child(5){width: 20%;}
+
+#tasks tr:nth-child(even){background-color: #f2f2f2;}
+
+#tasks tr:hover {background-color: #ddd;}
+
+
+#tasks th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 200px;
+    text-align: center;
+    background-color: #8ecd4e;
+    color: white;
+    border: 1px solid-white;
+}
