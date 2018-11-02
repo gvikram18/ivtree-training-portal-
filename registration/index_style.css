@@ -561,3 +561,36 @@ input:checked + .slider .off
 
 .slider.round:before {
   border-radius: 50%;}
+
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+}
+
+::-webkit-scrollbar-track {
+border-radius: 12px;
+}
+
+::-webkit-scrollbar-track:vertical {
+background: -webkit-linear-gradient(top, white, #8ecd4e); 
+}
+
+::-webkit-scrollbar-track:horizontal {
+background: -webkit-linear-gradient(left, white, #8ecd4e); 
+}
+
+::-webkit-scrollbar-thumb {
+background: #054978;  
+border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #054978;  
+}
+
+/**/
+#txtcomment {
+  width: 100%; border-radius:10px;
+}

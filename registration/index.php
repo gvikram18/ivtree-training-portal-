@@ -130,6 +130,7 @@
    <div class="content">
    <table cellspacing="0">
       <tr>
+                        <th>Sl. no.</th>
                         <th>Tasks</th>
                         <th>Description</th>
                         
@@ -137,6 +138,7 @@
                         <th>Comments</th>
                     </tr>
                     <tr>
+                        <td>1.</td>
                         <td>Installation on Virtual Box</td>
                             <td>Ubuntu 16.04 server version -
                                 <ol> 
@@ -150,19 +152,27 @@
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                        <td>2.</td>
                         <td>Installation on Virtual Box</td>
                         <td>Ubuntu 18.04 server version</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                        <td>3.</td>
                         <td>Network Configuration & Storage</td>
                         <td>
                             <ol>
@@ -173,16 +183,23 @@
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                        <td>4.</td>
                         <td>Basic Operations</td>
                         <td>Learning Ubuntu basic commands and trying them out</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr><span>Total Duration : 1 Day</span></tr>
@@ -196,22 +213,28 @@
    <div class="content">
    <table cellspacing="0">
       <tr>
-        <th>Tasks</th>
+                        <th>Sl. no.</th>
+                        <th>Tasks</th>
                         <th>Description</th>
                         
                         <th>Status</th>
                         <th>Comments</th>
                     </tr>
                     <tr>
+                        <td>1.</td>
                         <td>Installation</td>
                         <td>Installing MySQL in Ubuntu server 16.04/18.04</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                        <td>2.</td>
                         <td>Basic operations</td>
                         <td> Learning basic database operations -
                             <ol>
@@ -227,34 +250,49 @@
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                        <td>3.</td>
                         <td>Installation on Virtual Box</td>
                         <td>Installing phpMyAdmin and performing basic database operations</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                        <td>4.</td>
                         <td>Installation</td>
                         <td>Installing Cassandra in Ubuntu server 16.04/18.04</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                        <td>5.</td>
                         <td>Basic operations</td>
                         <td>Learning basic database operations</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr><span>Total Duration : 2 Days</span></tr>
@@ -268,55 +306,77 @@
    <div class="content">
    <table cellspacing="0">
       <tr>
-        <th>Tasks</th>
+        
+                        <th>Sl. no.</th>
+                        <th>Tasks</th>
                         <th>Description</th>
                         
                         <th>Status</th>
                         <th>Comments</th>
                     </tr>
                     <tr>
+                      <td>1.</td>
                         <td>Installation</td>
                         <td>Installing Python-2.7 in Ubuntu server 16.04/18.04</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>2.</td>
                         <td>Installation</td>
                         <td> Installing Python-3 in Ubuntu server 16.04/18.04 </td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>3.</td>
                         <td>Installation</td>
                         <td>Installing pip using <a href="https://bootstrap.pypa.io/get-pip.py">get-pip.py</a> on Ubuntu server 16.04/18.04</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>4.</td>
                         <td>Installation</td>
                         <td>Installing basic pip modules in Ubuntu server 16.04/18.04</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>5.</td>
                         <td>Basic operations</td>
                         <td>Execution of basic python execution programs from <a href="https://www.hackerearth.com/"> HackerEarth </a></td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr><span>Total Duration : 2 Days</span></tr>
@@ -330,55 +390,76 @@
    <div class="content">
    <table cellspacing="0">
       <tr>
-        <th>Tasks</th>
+                        <th>Sl. no.</th>
+                        <th>Tasks</th>
                         <th>Description</th>
                         
                         <th>Status</th>
                         <th>Comments</th>
                     </tr>
                     <tr>
+                      <td>1.</td>
                         <td>Installation</td>
                         <td>Installing Apache2 in Ubuntu server 16.04/18.04</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>2.</td>
                         <td>Execution</td>
                         <td>Hosting a simple web page via Apache in Ubuntu server 16.04/18.04</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>3.</td>
                         <td>Installation</td>
                         <td>Installing Nginx in Ubuntu server 16.04/18.04</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>4.</td>
                         <td>Execution</td>
                         <td>Hosting a simple web page via Nginx in Ubuntu server 16.04/18.04</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>5.</td>
                         <td>Basics of .conf files</td>
                         <td>Learn about the contents of configuration files, server, local blocks of Nginx and Virtualhost concepts of Apache</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr> 
@@ -394,22 +475,28 @@
    <div class="content">
    <table cellspacing="0">
       <tr>
-        <th>Tasks</th>
+                        <th>Sl. no.</th>
+                        <th>Tasks</th>
                         <th>Description</th>
                         
                         <th>Status</th>
                         <th>Comments</th>
                     </tr>
                     <tr>
+                      <td>1.</td>
                         <td>Installation</td>
                         <td>Installing Git in Ubuntu server 16.04/18.04</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>2.</td>
                         <td>Basic operations</td>
                         <td> Learning basic git operations -
                             <ol>
@@ -424,21 +511,30 @@
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>3.</td>
                         <td>Execution</td>
                         <td>
                             <ol>
-                                <li>Create a GitHub account and performing basic git operations from that account</li>
-                                <li>Create a GitLab account and performing basic git operations from that account in GUI.</li>
+                                <li>Create a GitHub account and performing basic 
+                                git operations from that account</li>
+                                <li>Create a GitLab account and performing basic 
+                                git operations from that account in GUI.</li>
                             </ol> 
                         </td> 
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr><span>Total Duration : 1 Day</span></tr>
@@ -452,76 +548,106 @@
    <div class="content">
    <table cellspacing="0">
       <tr>
-        <th>Tasks</th>
+                        <th>Sl. no.</th>
+                        <th>Tasks</th>
                         <th>Description</th>
                         
                         <th>Status</th>
                         <th>Comments</th>
                     </tr>
                     <tr>
+                      <td>1.</td>
                         <td>Installation on Virtual Box</td>
                         <td>Install Jenkins in Ubuntu server 16.04/18.04</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>       
                     <tr>
+                      <td>2.</td>
                         <td>Execution</td>
                         <td>Running a simple job (freestyle project) in Jenkins using inbuilt Jenkins workspace</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                     
                     </tr>
                     <tr>
+                      <td>3.</td>
                         <td>Execution</td>
                         <td>Running a simple job (freestyle project) in Jenkins using Git</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>4.</td>
                         <td>Installation</td>
                         <td>Install basic plugins in Jenkins</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>5.</td>
                         <td>Execution</td>
                         <td>Learn e-mail configuration and run a job with e-mail settings</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>6.</td>
                         <td>Configuration</td>
                         <td>Learn e-mail configuration and run a job with e-mail settings</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>7.</td>
                         <td>Installation</td>
                         <td>Install Testlink and create a project</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>8.</td>
                         <td>Configuration</td>
                         <td>Learn to configure -
                             <ol> 
@@ -534,16 +660,23 @@
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>9.</td>
                         <td>Execution</td>
                         <td>Execute some basic test cases</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr><span>Total Duration : 4 Days</span></tr>
@@ -557,40 +690,54 @@
    <div class="content">
    <table cellspacing="0">
       <tr>
-        <th>Tasks</th>
+                        <th>Sl. no.</th>
+                        <th>Tasks</th>
                         <th>Description</th>
                         
                         <th>Status</th>
                         <th>Comments</th>
                     </tr>
                     <tr>
+                      <td>1.</td>
                         <td>Installation</td>
                         <td>Install CentOS 6.9 server version</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>2.</td>
                         <td>Installation</td>
                         <td> Install CentOS 7 server version</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>3.</td>
                         <td>Basic commands</td>
                         <td>Learn the basic commands and try out basic CentOS operations</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>4.</td>
                         <td>Network configuration</td>
                         <td>For the installed CentOS,
                             <ol>
@@ -601,7 +748,10 @@
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr><span>Total Duration : 1 Day</span></tr>
@@ -615,90 +765,127 @@
    <div class="content">
    <table cellspacing="0">
       <tr>
-        <th>Tasks</th>
+                        <th>Sl. no.</th>
+                        <th>Tasks</th>
                         <th>Description</th>
                         
                         <th>Status</th>
                         <th>Comments</th>
                     </tr>
                     <tr>
+                      <td>1.</td>
                         <td>Installation</td>
                         <td>Installing MySQL, phpMyAdmin in CentOS server 6.9/7</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>2.</td>
                         <td>Basic operations</td>
                         <td> Perform basic database operations on CentOS server 6.9/7</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>3.</td>
                         <td>Installation</td>
                         <td>Installing python-2.7 and python-3 on CentOS server 6.9/7</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>4.</td>
                         <td>Installation</td>
                         <td>Installing pip using <a href="https://bootstrap.pypa.io/get-pip.py">get-pip.py</a> in CentOS server 6.9/7</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>5.</td>
                         <td>Execution</td>
                         <td>Execution of basic python programs on CentOS server 6.9/7</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     <tr>
+                      <td>6.</td>
                         <td>Installation</td>
                         <td>Install httpd(Apache) on CentOS server 6.9/7</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>7.</td>
                         <td>Execution</td>
                         <td>Host a simple web page via httpd (Apache) on CentOS server 6.9/7</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>8.</td>
                         <td>Installation</td>
                         <td>Install Git on CentOS server 6.9/7</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>9.</td>
                         <td>Basic operations</td>
                         <td>Execute some basic git operations on CentOS server 6.9/7</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr> 
                     <tr><span>Total Duration : 3 Days</span></tr>
@@ -712,22 +899,28 @@
    <div class="content">
    <table cellspacing="0">
       <tr>
-        <th>Tasks</th>
+                        <th>Sl. no.</th>
+                        <th>Tasks</th>
                         <th>Description</th>
                         
                         <th>Status</th>
                         <th>Comments</th>
                     </tr>
                     <tr>
+                      <td>1.</td>
                         <td>Introduction</td>
                         <td>Learn about REST API's and their importance</td>
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr>
                     <tr>
+                      <td>2.</td>
                         <td>Operations</td>
                         <td>Perform some basic operations in -
                             <ol>
@@ -738,7 +931,10 @@
                         <td><!-- Switch -->
                            <label class="switch"><input type="checkbox" id="togBtn"><div class="slider round"><!--ADDED HTML --><span class="on">Done</span><span class="off">New</span><!--END--></div></label>
                         </td>
-                        <td></td>
+                        <td><form method="post" action="#">
+                <textarea id="txtcomment" rows="3" name="comment"></textarea>
+                <input type="submit" value="submit">
+              </form></td>
                         
                     </tr> 
                     <tr><span>Total Duration : 1 Day</span></tr>
